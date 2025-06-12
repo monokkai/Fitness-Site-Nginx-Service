@@ -1,8 +1,0 @@
-services:
-  nginx-service:
-    image: nginx:latest
-    container_name: nginx-service
-    ports:
-      - "8081:80"
-    volumes:
-      - ./nginx-static:/usr/share/nginx/html:ro
